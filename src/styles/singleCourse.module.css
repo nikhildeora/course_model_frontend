@@ -1,0 +1,109 @@
+/* Styles for the SingleCoursePage component */
+.single_course_page {
+    text-align: left;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .loading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .course_title {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  span{
+    font-weight: bold;
+  }
+
+  .course_image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+  }
+  
+  .instructor {
+    font-size: 1.2rem;
+  }
+  
+  .duration {
+    font-size: 1.2rem;
+  }
+  
+  .location {
+    font-size: 1.2rem;
+  }
+  
+  .status {
+    font-size: 1.2rem;
+  }
+  
+  .schedule {
+    font-size: 1.2rem;
+  }
+  
+  .prerequisites_ul{
+    /* border: 1px solid black; */
+    padding: 0;
+  }
+
+  .prerequisites_title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .prerequisite {
+    font-size: 1.2rem;
+    list-style-type: disc;
+    margin-left: 24px;
+  }
+  
+  .syllabus_title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .syllabus_item {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .week_title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .topic {
+    font-size: 1.2rem;
+  }
+  
+  .small_description {
+    font-size: 1.2rem;
+  }
+  
+  .enroll_now{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 21px;
+    margin-top: 30px;   
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s linear;
+  }
+
+  .enroll_now:hover{
+    background-color: rgb(28, 159, 28);
+  }

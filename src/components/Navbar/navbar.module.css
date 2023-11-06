@@ -1,0 +1,40 @@
+/* Navbar styling */
+.navbar {
+    background-color: #333; /* Background color for the navigation bar */
+    color: #fff; /* Text color for the navigation bar items */
+    padding: 10px; /* Add some padding to the navigation bar */
+  }
+  
+  .navbar_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar_section {
+    display: flex;
+  }
+  
+  .navbar_item {
+    margin-right: 20px;
+  }
+
+  .navbar_item a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+  
+  .navbar_logout {
+    background-color: #ff0000; /* Red background color for the logout button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .navbar_logout:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  

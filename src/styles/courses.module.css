@@ -1,0 +1,56 @@
+/* Styles for the Courses component */
+
+.courses_list {
+    text-align: center;
+  }
+  
+  .empty_list {
+    color: #999;
+    font-size: 1.5rem;
+  }
+  
+  .courses {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course_card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course_image {
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+  }
+  
+  .course_title {
+    margin-top: 10px;
+  }
+  
+  .instructor {
+    color: #666;
+  }
+  
+  .detail_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .detail_button:hover {
+    background-color: #0056b3;
+  }
+  

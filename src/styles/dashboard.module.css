@@ -1,0 +1,16 @@
+
+.dashboard_main_first__div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.dashboard_main_first__div>img{
+    border-radius: 50%;
+}
+
+.dashboard_main_inside__div{
+    text-align: left;
+}
